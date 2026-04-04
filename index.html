@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio Landing Page">
+    <title>Personal Portfolio</title>
+    <!-- Use Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="brand">
+                <a href="#home" class="logo">Prakash Gupta</a>
+                <span class="tagline">Web Developer & Designer</span>
+            </div>
+
+            <!-- Checkbox hack for mobile menu without JS -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home section">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="highlight">Prakash Gupta</span></h1>
+            <h3>Web Developer</h3>
+            <p>I build clean, modern, and responsive digital experiences.</p>
+            <div class="btn-group">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="#projects" class="btn btn-secondary">View Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="Profile.jpeg" alt="Professional Profile Image">
+            </div>
+            <div class="about-text">
+                <h3>I'm Prakash Kumar Gupta</h3>
+                <p>I am a B.Tech student with a strong interest in web development and programming. I enjoy solving
+                    complex problems and building user-friendly applications.</p>
+                <p>I have a deep passion for learning new technologies and continuously improving my skills. My goal is
+                    to become a professional software developer and create impactful digital experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section bg-light">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <h3>C++</h3>
+            </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <h3>Data Structures</h3>
+            </div>
+            <div class="skill-card">
+                <h3>Web Development</h3>
+            </div>
+            <div class="skill-card">
+                <h3>Problem Solving</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="HouseHunt.png" alt="HouseHunt Web App">
+                </div>
+                <div class="project-info">
+                    <h3>HouseHunt Web App</h3>
+                    <p>A comprehensive real estate application to find and list properties easily.</p>
+                    <a href="#" class="btn btn-secondary">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="StudentManagement.png" alt="Student Management System">
+                </div>
+                <div class="project-info">
+                    <h3>Student Management System</h3>
+                    <p>An intuitive system designed to manage student records, attendances, and grades.</p>
+                    <a href="#" class="btn btn-secondary">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="Portfolio.png" alt="Portfolio Website">
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive personal portfolio to showcase my skills and web development projects.</p>
+                    <a href="#" class="btn btn-secondary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section bg-light">
+        <h2 class="section-title">Resume</h2>
+        <div class="resume-content">
+            <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 2rem;">Click the button below to view
+                and download my professional resume.</p>
+            <div class="resume-cta">
+                <a href="resume.pdf" target="_blank" class="btn btn-primary"
+                    style="padding: 1rem 3rem; font-size: 1.1rem;">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Feel free to reach out to me for any questions or opportunities!</p>
+                <div class="info-item">
+                    <strong>Email:</strong> your.email@example.com
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong> +1 (234) 567-890
+                </div>
+                <div class="info-item">
+                    <strong>Location:</strong> New York, USA
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="mailto:your.email@example.com">Email</a>
+        </div>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
