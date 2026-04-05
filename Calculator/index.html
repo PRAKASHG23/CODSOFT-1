@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <meta name="description" content="A clean, modern basic calculator application.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="calculator" id="calculator">
+        <div class="display">
+            <div class="previous-operand" id="previous-operand"></div>
+            <div class="current-operand" id="current-operand">0</div>
+        </div>
+        <div class="keypad">
+            <button class="btn action clear" id="clear" data-clear>C</button>
+            <button class="btn operator" id="divide" data-operation>÷</button>
+            <button class="btn operator" id="multiply" data-operation>×</button>
+
+            <button class="btn" data-number>7</button>
+            <button class="btn" data-number>8</button>
+            <button class="btn" data-number>9</button>
+            <button class="btn operator" id="subtract" data-operation>−</button>
+
+            <button class="btn" data-number>4</button>
+            <button class="btn" data-number>5</button>
+            <button class="btn" data-number>6</button>
+            <button class="btn operator" id="add" data-operation>+</button>
+
+            <button class="btn" data-number>1</button>
+            <button class="btn" data-number>2</button>
+            <button class="btn" data-number>3</button>
+            <button class="btn equals" id="equals" data-equals>=</button>
+
+            <button class="btn zero" data-number>0</button>
+            <button class="btn" data-number>.</button>
+        </div>
+    </div>
+
+    <footer class="calculator-footer">
+        <p>Basic Calculator Project</p>
+        <p>Created by: Prakash Kumar Gupta</p>
+        <p>Technology Used: HTML, CSS, JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
